@@ -32,7 +32,7 @@ scoring:
   title_weight:    1.0
   author_weight:   1.0
   category_weight: 0.5
-  threshold:       4.0
+  threshold:       2.0
 
 limits:
   lookback_days: 7
