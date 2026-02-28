@@ -28,7 +28,7 @@ JST = ZoneInfo("Asia/Tokyo")
 CONTACT = os.environ.get("ARXIV_CONTACT", "contact@example.com")
 HEADERS = {"User-Agent": f"ag-weekly-bot (contact: {CONTACT})"}
 
-TITLE_COLOR = Color(232/255.0, 180/255.0, 180/255.0)  # RGB(232,180,180)
+TITLE_COLOR = Color(206/255.0, 212/255.0, 224/255.0)  # RGB(232,180,180)
 
 def load_config(path="config.yaml"):
     with open(path, "r", encoding="utf-8") as f:
