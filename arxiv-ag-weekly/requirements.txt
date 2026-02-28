@@ -1,5 +1,0 @@
-requests
-feedparser
-reportlab
-pdfminer.six
-PyYAML
