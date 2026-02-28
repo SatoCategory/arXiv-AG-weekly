@@ -1,0 +1,45 @@
+profile:
+  keywords:
+    - { term: "positive characteristic", weight: 3 }
+    - { term: "Frobenius",              weight: 3 }
+    - { term: "F-pure threshold",       weight: 3 }
+    - { term: "test ideal",             weight: 3 }
+    - { term: "jumping number",         weight: 2 }
+    - { term: "ACC",                    weight: 2 }
+    - { term: "imperfect field",        weight: 2 }
+    - { term: "Non nef locus",          weight: 2 }
+    - { term: "Bertini",                weight: 2 }
+    - { term: "BAB",                    weight: 2 }
+    - { term: "boundedness",            weight: 2 }
+    - { term: "F-regular",              weight: 3 }
+    - { term: "F-split",                weight: 3 }
+
+  authors_priority:
+    - { name: "Schwede",    weight: 2 }
+    - { name: "Tucker",     weight: 2 }
+    - { name: "Kawakami",   weight: 2 }
+    - { name: "Witaszek",   weight: 2 }
+    - { name: "Bernasconi", weight: 2 }
+    - { name: "Smith",      weight: 2 }
+    - { name: "Tanaka",     weight: 2 }
+    - { name: "Kollár",     weight: 2 }
+
+  msc_terms: []
+  exclude:  []
+
+scoring:
+  abstract_weight: 1.0
+  title_weight:    1.5
+  author_weight:   1.0
+  category_weight: 0.5
+  threshold:       2.0
+
+limits:
+  lookback_days: 7
+  max_details:   3
+  max_fetch:   2000
+
+output:
+  language: "ja"
+  filename_prefix: "weekly_math_ag"
+  include_others_titles: true
