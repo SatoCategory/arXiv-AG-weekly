@@ -29,10 +29,10 @@ profile:
 
 scoring:
   abstract_weight: 1.0
-  title_weight:    1.5
+  title_weight:    1.0
   author_weight:   1.0
   category_weight: 0.5
-  threshold:       2.0
+  threshold:       4.0
 
 limits:
   lookback_days: 7
